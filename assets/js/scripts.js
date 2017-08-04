@@ -242,7 +242,7 @@ jQuery(function ($) {
     // --------------------------------------------------------------
     // Contact form
     // --------------------------------------------------------------
-    function SubForm (e){
+    $('#contact-form').submit(function(e){
     	e.preventDefault();
         $.ajax({
             url:'https://ks3354246.kimsufi.com/mailapp/contact',
@@ -252,7 +252,7 @@ jQuery(function ($) {
                 $('#success').show();
             }
         });
-    }
+    });
 
 });
 
