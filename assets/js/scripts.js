@@ -249,11 +249,14 @@ jQuery(function ($) {
             type:'post',
             data:$('#contact-form').serialize(),
             success:function(){
-                $('#success').show();
+                $('#success').removeClass('hidden');
             },
             error:function(xhr, status, error){
-				$('#success').show();
-			}
+				$('#success').removeClass('hidden');
+			},
+			xhrFields: {
+			  withCredentials: true
+		   }
         });
     });
 
