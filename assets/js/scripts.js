@@ -255,10 +255,7 @@ jQuery(function ($) {
             error:function(xhr, status, error){
 				$('#success').removeClass('hidden');
 				$("#contact-form")[0].reset();
-			},
-			xhrFields: {
-			  withCredentials: true
-		   }
+			}
         });
     });
 
