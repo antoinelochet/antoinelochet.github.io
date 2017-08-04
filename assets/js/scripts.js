@@ -250,7 +250,7 @@ jQuery(function ($) {
             data:$('#contact-form').serialize(),
             success:function(){
                 $('#success').show();
-            }
+            },
             error:function(xhr, status, error){
 				$('#success').show();
 			}
