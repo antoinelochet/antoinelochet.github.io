@@ -238,6 +238,21 @@ jQuery(function ($) {
         }).init();
 
     }());
+    
+    // --------------------------------------------------------------
+    // Contact form
+    // --------------------------------------------------------------
+    function SubForm (e){
+    	e.preventDefault();
+        $.ajax({
+            url:'https://ks3354246.kimsufi.com/mailapp/contact',
+            type:'post',
+            data:$('#contact-form').serialize(),
+            success:function(){
+                $('#success').show();
+            }
+        });
+    }
 
 });
 
