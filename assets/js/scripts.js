@@ -251,7 +251,7 @@ jQuery(function ($) {
             success:function(){
                 $('#success').show();
             }
-            error:function(){
+            error:function(xhr, status, error){
 				$('#success').show();
 			}
         });
