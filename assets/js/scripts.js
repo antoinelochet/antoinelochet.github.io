@@ -251,6 +251,9 @@ jQuery(function ($) {
             success:function(){
                 $('#success').show();
             }
+            error:function(){
+				$('#success').show();
+			}
         });
     });
 
