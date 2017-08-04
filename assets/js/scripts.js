@@ -250,9 +250,11 @@ jQuery(function ($) {
             data:$('#contact-form').serialize(),
             success:function(){
                 $('#success').removeClass('hidden');
+                $("#contact-form")[0].reset();
             },
             error:function(xhr, status, error){
 				$('#success').removeClass('hidden');
+				$("#contact-form")[0].reset();
 			},
 			xhrFields: {
 			  withCredentials: true
