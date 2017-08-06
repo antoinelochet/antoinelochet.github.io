@@ -245,7 +245,7 @@ jQuery(function ($) {
     $('#contact-form').submit(function(e){
     	e.preventDefault();
         $.ajax({
-            url:'https://ks3354246.kimsufi.com/mailapp/contact',
+            url:'https://ks3354246.kimsufi.com:8443/mailapp/contact',
             type:'post',
             data:$('#contact-form').serialize(),
             success:function(){
