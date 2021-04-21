@@ -27,8 +27,8 @@
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <script src="https://raw.githubusercontent.com/aFarkas/html5shiv/master/dist/html5shiv.min.js"></script>
+        <script src="https://raw.githubusercontent.com/scottjehl/Respond/master/dest/respond.min.js"></script>
     <![endif]-->
 
     <link rel="shortcut icon" href="assets/images/ico/favicon.png">
@@ -52,7 +52,7 @@
 		<div class="intro">
 			<div class="intro-sub">I am Antoine Lochet</div>
 			<h1>Lead <span>Developer</span></h1>
-			<p>I am a architect/lead developer on equensWorldline's New Payment Means, supervising a team of 8 developers.</p>
+			<p>I am a architect/lead developer on equensWorldline's Strong Customer Authentication solution, technically supervising a team of 6 developers.</p>
             <p>I used to have my own company for which I have developed, with a partner, an e-commerce site along with its backoffice.</p>
 
       <div class="social-icons">
@@ -91,7 +91,6 @@
 						<li><a href="#about">About</a></li>
 						<li><a href="#resume">Resume</a></li>
 						<li><a href="#skills">Skills</a></li>
-                        <li><a href="#contact">Contact</a></li>
 					</ul>
 				</div>
 			</div><!-- .container -->
@@ -122,25 +121,23 @@
           <div class="col-md-8 col-md-pull-4">
             <div class="short-info wow fadeInUp">
               <h3>Objective</h3>
-              <p>I always look for expanding my knowledge and my skill. I never fear to go down the rabbit hole and go read the source code if necessary. I like to explain my findings to others so they can do their work at their maximum potential. </p>
+              <p>I always look for expanding my knowledge and my skill. I never fear to go down the rabbit hole and go read the source code if necessary. I like to explain my findings to others so they can do their work at their maximum potential.</p>
             </div>
 
             <div class="short-info wow fadeInUp">
               <h3>What I Do ?</h3>
-              <p>I have been working as a back-end software architect and Java lead developer for the last 3 years. I have acquired experience on designing high-performance software for time-constrained and security-oriented applications. I have also developed a particular skill in debugging and finding software defects.</p>
+              <p>I have been working as a back-end software architect and Java lead developer for the last 7 years. I have acquired experience on designing software for time-constrained and security-oriented applications. I have also developed a particular skill in debugging and finding software defects.</p>
 
               <ul class="list-check">
                 <li>Java SE/EE</li>
                 <li>Spring Framework</li>
                 <li>Hibernate</li>
-                <li>Web: HTML5, CSS, Javascript</li>
-                <li>DevOps: Docker, Splunk, Tomcat, JBoss</li>
-                <li>Sys. Admin.: Debian, CentOS, Windows</li>
+                <li>DevOps: Docker, Prometheus/Telegraf, Grafana, Tomcat, JBoss</li>
+                <li>System: Debian, CentOS, Windows</li>
               </ul>
             </div>
 
             <div class="download-button">
-              <a class="btn btn-info btn-lg" href="#contact"><i class="fa fa-paper-plane"></i>Send me message</a>
               <a class="btn btn-primary btn-lg" href="assets/antoine_lochet_resume_en.pdf" target="_blank"><i class="fa fa-download"></i>Download my resume</a>
             </div>
           </div>
@@ -225,9 +222,9 @@
                     </div>
                     <div class="resume">
                         <ul class="timeline">
-                            <li class="timeline">
+                            <li class="timeline-inverted">
                                 <div class="posted-date">
-                                    <span class="month">2014-now</span>
+                                    <span class="month">2018-now</span>
                                 </div><!-- /posted-date -->
 
                                 <div class="timeline-panel wow fadeInUp">
@@ -238,7 +235,25 @@
                                         </div><!-- /timeline-heading -->
 
                                         <div class="timeline-body">
-                                            <p>My most important professional accomplishment so far. I had to design and develop a server-side software for an Android mobile payment application with a potential for millions of users. Security and fast response times are mission critical. Also, I have to lead 8 developers on the technical matters.</p>
+                                            <p>After four years working on HCE, I needed a new challenge. So I asked to be positioned to work on the Strong Customer Authentication solution of equensWorldline. It was in a bad need of a redesign and performance improvements. It was the perfect opportunity for me to see if what I have learnt over the 4 previous years could work elsewhere. I lead the efforts to accomplish these goals while developing new features and expanding its monitoring.</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+                            <li class="timeline">
+                                <div class="posted-date">
+                                    <span class="month">2014-2018</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Architect, Lead Developer</h3>
+                                            <span>equensWorldline, Tours, France</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>My most important professional accomplishment so far. I had to design and develop a server-side software named HCE for an Android mobile payment application with a potential for millions of users. Security and fast response times are mission critical. Also, I have to lead 8 developers on the technical matters.</p>
                                         </div><!-- /timeline-body -->
                                     </div> <!-- /timeline-content -->
                                 </div><!-- /timeline-panel -->
@@ -310,7 +325,7 @@
                                         </div><!-- /timeline-heading -->
 
                                         <div class="timeline-body">
-                                            <p>Return to the roots, development. For an tolling (Ecotaxe) solution.</p>
+                                            <p>Return to the roots, development. For a tolling (Ecotaxe) solution.</p>
                                         </div><!-- /timeline-body -->
                                     </div> <!-- /timeline-content -->
                                 </div><!-- /timeline-panel -->
@@ -371,22 +386,17 @@
                   <h3>Java SE/EE</h3>
                   <p class="text-muted">Spring Framework, Hibernate, QueryDSL, Jackson</p>
               </div>
-              <div>
-                  <i class="fa fa-4x fa-html5 text-primary sr-icons" data-sr-id="2"></i>
-                  <h3>Web</h3>
-                  <p class="text-muted">HTML5, CSS3, Javascript (Angular 1, Backbone, jQuery)</p>
-              </div>
           </div><!-- /.col-md-6 -->
 
           <div class="col-md-6">
               <div>
                   <i class="fa fa-4x fa-rocket text-primary sr-icons" data-sr-id="2"></i>
                   <h3>DevOps</h3>
-                  <p class="text-muted">Docker, Splunk, Tomcat, JBoss</p>
+                  <p class="text-muted">Docker, Prometheus/Telegraf, Grafana, Tomcat, JBoss, Kafka</p>
               </div>
               <div>
                   <i class="fa fa-4x fa-server text-primary sr-icons" data-sr-id="2"></i>
-                  <h3>System administration</h3>
+                  <h3>System</h3>
                   <p class="text-muted">Debian, CentOS, Windows</p>
               </div>
           </div><!-- /.col-md-6 -->
@@ -394,70 +404,6 @@
 
       </div><!-- /.container -->
     </section><!-- End Skills Section -->
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section section-padding">
-      <div class="container">
-        <h2 class="section-title wow fadeInUp">Get in touch</h2>
-
-        <div class="row">
-
-            <div class="col-md-6">
-                <div class="contact-form">
-                    <strong>Send me a message</strong>
-                    <form name="contact-form" id="contact-form" method="post" action="https://ks3354246.kimsufi.com:8443/mailapp/contact">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" name="name" class="form-control" id="name" required="">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" name="email" class="form-control" id="email" required="">
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea name="message" class="form-control" id="message" rows="5" required=""></textarea>
-                        </div>
-
-                        <input type="hidden" name="apikey" value="b3be4849528044f676dc31c4a65fc3151f4ab85480f4e7d249134453d752479a">
-
-                        <button type="submit" name="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-                </div>
-                <br>
-                <div class="hidden alert alert-success alert-dismissable fade in" id="success" role="alert">
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    Your message has been sent !
-                </div>
-            </div><!-- /.col-md-6 -->
-
-          <div class="col-md-6">
-            <div class="row center-xs">
-              <div class="col-sm-6">
-                <i class="fa fa-github"></i>
-                <div>
-                    <a href="https://github.com/antoinelochet" target="_blank"><strong>My GitHub</strong></a>
-                </div>
-              </div>
-            </div>
-
-          </div>
-            <div class="col-md-6">
-                <div class="row center-xs">
-
-                    <div class="col-sm-6">
-                        <i class="fa fa-linkedin"></i>
-                        <div>
-                            <a href="https://www.linkedin.com/in/antoine-lochet-78b097147" target="_blank"><strong>My LinkedIn profile</strong></a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section><!-- End Contact Section -->
-
 
 	<!-- Footer Section -->
     <footer class="footer-wrapper">
